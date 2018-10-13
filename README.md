@@ -4,20 +4,14 @@ An implementation of this tweet https://twitter.com/divineomega/status/695744177
 
 Opens a new window/tab in browser that displays Stack Overflow search results for the thrown error.
 
-NOTE: If your browser is configured to open new pages to new windows, its pop-up blocker might prevent the search results from showing up automatically.
-
 ## Usage
 
-Run
+1) Run: `npm install` for first-time setup.
 
-```
-npm install
-```
+2) Write some incorrect code that throws an error in the `try` block in `index.js.
 
-for first-time setup, then run
+3) Run `npm start`.
 
-```
-npm start
-```
+4) Go to `http://localhost:8080` in your browser and pray that Stack Overflow has a solution to your error.
 
-then go to `http://localhost:8080` in your browser
+NOTE: If your browser is configured to open new pages to new windows, its pop-up blocker might prevent the search results from showing up automatically.
