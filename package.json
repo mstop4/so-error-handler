@@ -2,16 +2,19 @@
   "name": "so-error-handler",
   "version": "1.0.0",
   "description": "Stack Overflow Error Handler",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "http-server ./public"
   },
   "keywords": [],
   "author": "M.S.T.O.P.",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/mstop4/so-error-handler.git"
+    "type": "git",
+    "url": "https://github.com/mstop4/so-error-handler.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }
