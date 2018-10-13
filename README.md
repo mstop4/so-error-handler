@@ -8,7 +8,7 @@ Opens a new window/tab in browser that displays Stack Overflow search results fo
 
 1) Run: `npm install` for first-time setup.
 
-2) Write some incorrect code that throws an error in the `try` block in `index.js.
+2) Write some incorrect code that throws an error in the `try` block in `index.js`.
 
 3) Run `npm start`.
 
